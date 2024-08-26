@@ -8,4 +8,4 @@ for letra in texto:
         letra_criptografada = chr((ord(letra) + deslocamento - 97) % 26 + 97)
     else: letra_criptografada = letra 
     texto_criptografado += letra_criptografada
-print("Texto criptografado:", texto_criptografado)
+    print("Texto criptografado:", texto_criptografado)
